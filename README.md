@@ -1,2 +1,0 @@
-# shichence.github.io
-Homepage
