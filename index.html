@@ -78,6 +78,11 @@
                                 <td style="padding:20px;width:100%;vertical-align:middle">
                                     <heading>News</heading>
                                     <p>
+                                        <strong>[Dec. 2019]</strong>&nbsp&nbsp<font color="red"><strong>New!!</strong>
+                                        </font>&nbspOur paper <em>GraphAF: a Flow-based Autoregressive Model for Molecular Graph Generation</em> was accepted at <a
+                                            href="https://iclr.cc" target="_blank">ICLR 2020</a>.
+                                    </p>                                    
+                                    <p>
                                         <strong>[Aug. 2019]</strong>&nbsp&nbsp<font color="red"><strong>New!!</strong>
                                         </font>&nbspOur paper <em>AutoInt: Automatic Feature Interaction Learning via
                                             Self-Attentive Neural Networks</em> was accepted at <a
@@ -117,6 +122,45 @@
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
 
+                            <tr onmouseout="graphaf_stop()" onmouseover="graphaf_start()">
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one">
+                                        <div class="two" id='graphaf_image'>
+                                            <img src='images/graphaf_after.jpg' height="152" width="180">
+                                        </div>
+                                            <img src='images/graphaf_before.jpg' height="159" width="180">
+                                    </div>
+                                    <script type="text/javascript">
+                                        function graphaf_start() {
+                                            document.getElementById('graphaf_image').style.opacity = "1";
+                                        }
+
+                                        function graphaf_stop() {
+                                            document.getElementById('graphaf_image').style.opacity = "0";
+                                        }
+                                        graphaf_stop()
+                                    </script>
+                                </td>
+
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="https://openreview.net/forum?id=S1esMkHYPr" target="_blank">
+                                        <papertitle>GraphAF: a Flow-based Autoregressive Model for Molecular Graph Generation
+                                        </papertitle>
+                                    </a>
+                                    <br>
+                                    <strong>Chence Shi</strong>&#42;,&nbsp
+                                    <a href="https://minkaixu.com" target="_blank">Minkai Xu</a>&#42;,&nbsp
+                                    Zhaocheng Zhu,&nbsp                                   
+                                    Weinan Zhang,&nbsp
+                                    <a href="http://net.pku.edu.cn/dlib/mzhang/" target="_blank">Ming Zhang</a>,&nbsp
+                                    <a href="https://jian-tang.com" target="_blank">Jian Tang</a>&nbsp
+                                    <br>
+                                    <em>International Conference on Learning Representations (ICLR)</em>,&nbsp2020&nbsp&nbsp
+                                    <br>                            
+                                    <a href="http://bit.ly/2lCkfsr" target="_blank">code</a>
+                                </td>
+                            </tr>
+
                             <tr onmouseout="autoint_stop()" onmouseover="autoint_start()">
                                 <td style="padding:20px;width:25%;vertical-align:middle">
                                     <div class="one">
@@ -150,18 +194,27 @@
                                     <a href="http://net.pku.edu.cn/dlib/mzhang/" target="_blank">Ming Zhang</a>,&nbsp
                                     <a href="https://jian-tang.com" target="_blank">Jian Tang</a>&nbsp
                                     <br>
-                                    <em>CIKM</em>&nbsp&nbsp2019&nbsp&nbsp
+                                    <em>CIKM</em>,&nbsp2019&nbsp&nbsp
                                     <br>
                                     <a href="https://github.com/DeepGraphLearning/RecommenderSystems/tree/master/featureRec" target="_blank">code</a>
-                                    <br>
                                 </td>
                             </tr>
-
-                          
-
-
-                           
                          
+                        </tbody>
+
+                       
+                    </table>
+
+                    <table
+                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+                            <tr>
+                                <td style="padding:0px">
+                                    <p style="text-align: right">
+                                        (&#42; equal contribution)
+                                    </p>                           
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
 
@@ -174,7 +227,7 @@
                                         <br>
                                         <br>
                                         <div style="float:left;">
-                                        Updated at Sept. 2019 
+                                        Updated at Dec. 2019 
                                         </div>
                                         <div style="float:right;">
                                         <a href="https://jonbarron.info">Template</a>
