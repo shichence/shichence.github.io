@@ -120,6 +120,45 @@
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
 
+                            <tr onmouseout="g2g_stop()" onmouseover="g2g_start()">
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one">
+                                        <div class="two" id='g2g_image'>
+                                            <img src='images/g2g_after.jpg' height="152" width="180">
+                                        </div>
+                                            <img src='images/g2g_before.jpg' height="150" width="180">
+                                    </div>
+                                    <script type="text/javascript">
+                                        function g2g_start() {
+                                            document.getElementById('g2g_image').style.opacity = "1";
+                                        }
+
+                                        function g2g_stop() {
+                                            document.getElementById('g2g_image').style.opacity = "0";
+                                        }
+                                        g2g_stop()
+                                    </script>
+                                </td>
+
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="https://arxiv.org/abs/2003.12725" target="_blank">
+                                        <papertitle>A Graph to Graphs Framework for Retrosynthesis Prediction
+                                        </papertitle>
+                                    </a>
+                                    <br>
+
+
+                                    <strong>Chence Shi</strong>,&nbsp
+                                    <a href="https://minkaixu.com" target="_blank">Minkai Xu</a>,&nbsp
+                                    <a href="https://www.site.uottawa.ca/~hguo028/mainpage.htm" target="_blank">Hongyu Guo</a>,&nbsp
+                                    <a href="http://net.pku.edu.cn/dlib/mzhang/" target="_blank">Ming Zhang</a>,&nbsp
+                                    <a href="https://jian-tang.com" target="_blank">Jian Tang</a>&nbsp
+                                    <br>
+                                    <em>arXiv preprint</em>,&nbsp2020&nbsp&nbsp
+                                </td>
+                            </tr>
+
+
                             <tr onmouseout="graphaf_stop()" onmouseover="graphaf_start()">
                                 <td style="padding:20px;width:25%;vertical-align:middle">
                                     <div class="one">
@@ -155,7 +194,7 @@
                                     <br>
                                     <em>International Conference on Learning Representations (ICLR)</em>,&nbsp2020&nbsp&nbsp
                                     <br>                            
-                                    <a href="http://bit.ly/2lCkfsr" target="_blank">code</a>
+                                    <a href="https://github.com/DeepGraphLearning/GraphAF" target="_blank">code</a>
                                 </td>
                             </tr>
 
@@ -225,7 +264,7 @@
                                         <br>
                                         <br>
                                         <div style="float:left;">
-                                        Updated at Dec. 2019 
+                                        Updated at Apr. 2020 
                                         </div>
                                         <div style="float:right;">
                                         <a href="https://jonbarron.info">Template</a>
