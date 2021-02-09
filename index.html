@@ -62,7 +62,7 @@
                                 <td style="padding:20px;width:100%;vertical-align:middle">
                                     <heading>Research Topics</heading>
                                     <p>
-                                        My research interests lie primarily in machine learning, graph representation
+                                        My research interests lie primarily in machine learning, drug discovery, graph representation
                                         learning, natural language processing and recommender system.
                                     </p>
                                 </td>
@@ -77,18 +77,26 @@
                                 <td style="padding:20px;width:100%;vertical-align:middle">
                                     <heading>News</heading>
                                     <p>
+                                        <strong>[Jan. 2021]</strong>&nbsp&nbsp<font color="red"><strong>New!!</strong>
+                                        </font>&nbspOur paper <em>MARS: Markov Molecular Sampling for Multi-objective Drug Discovery</em> was accepted at <a
+                                            href="https://iclr.cc" target="_blank">ICLR 2021</a>.
+                                    </p>   
+                                    <p>
+                                        <strong>[Dec. 2020]</strong>&nbsp&nbsp<font color="red"><strong>New!!</strong>
+                                        </font>&nbspThe preprint of our new work <em>Non-autoregressive electron flow generation for reaction prediction</em> is available at <a
+                                            href="https://arxiv.org/abs/2012.12124v1" target="_blank">arXiv</a>.
+                                    </p>                                                                        
+                                    <p>
                                         <strong>[Jun. 2020]</strong>&nbsp&nbsp<font color="red"><strong>New!!</strong>
                                         </font>&nbspOur paper <em>A Graph to Graphs Framework for Retrosynthesis Prediction</em> was accepted at <a
                                             href="https://icml.cc" target="_blank">ICML 2020</a>.
                                     </p>                                     
                                     <p>
-                                        <strong>[Dec. 2019]</strong>&nbsp&nbsp<font color="red"><strong>New!!</strong>
-                                        </font>&nbspOur paper <em>GraphAF: a Flow-based Autoregressive Model for Molecular Graph Generation</em> was accepted at <a
+                                        <strong>[Dec. 2019]</strong>&nbsp&nbspOur paper <em>GraphAF: a Flow-based Autoregressive Model for Molecular Graph Generation</em> was accepted at <a
                                             href="https://iclr.cc" target="_blank">ICLR 2020</a>.
                                     </p>                                    
                                     <p>
-                                        <strong>[Aug. 2019]</strong>&nbsp&nbsp<font color="red"><strong>New!!</strong>
-                                        </font>&nbspOur paper <em>AutoInt: Automatic Feature Interaction Learning via
+                                        <strong>[Aug. 2019]</strong>&nbsp&nbspOur paper <em>AutoInt: Automatic Feature Interaction Learning via
                                             Self-Attentive Neural Networks</em> was accepted at <a
                                             href="http://www.cikm2019.net" target="_blank">CIKM 2019</a>.
                                     </p>
@@ -119,7 +127,7 @@
                         <tbody>
                             <tr>
                                 <td style="padding:20px;width:100%;vertical-align:middle">
-                                    <heading>Publication</heading>
+                                    <heading>Selected Publication</heading>
                                 </td>
                             </tr>
                         </tbody>
@@ -127,6 +135,46 @@
                     <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
+
+                            <tr onmouseout="mars_stop()" onmouseover="mars_start()">
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one">
+                                        <div class="two" id='mars_image'>
+                                            <img src='images/mars_after.jpg' height="130" width="180">
+                                        </div>
+                                            <img src='images/mars_before.jpg' height="130" width="180">
+                                    </div>
+                                    <script type="text/javascript">
+                                        function mars_start() {
+                                            document.getElementById('mars_image').style.opacity = "1";
+                                        }
+
+                                        function mars_stop() {
+                                            document.getElementById('mars_image').style.opacity = "0";
+                                        }
+                                        mars_stop()
+                                    </script>
+                                </td>
+
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="https://openreview.net/forum?id=kHSu4ebxFXY" target="_blank">
+                                        <papertitle>MARS: Markov Molecular Sampling for Multi-objective Drug Discovery
+                                        </papertitle>
+                                    </a>
+                                    <br>
+
+                                    <a href="https://yutxie.github.io/aboutme/" target="_blank">Yutong Xie</a>,&nbsp
+                                    <strong>Chence Shi</strong>,&nbsp
+                                    <a href="https://zhouh.github.io/" target="_blank">Hao Zhou</a>,&nbsp
+                                    Yuwei Yang,&nbsp
+                                    Weinan Zhang,&nbsp
+                                    Yong Yu,&nbsp                                    
+                                    <a href="https://lileicc.github.io/" target="_blank">Lei Li</a>,&nbsp
+                                    <br>
+                                    <em>International Conference on Learning Representations (ICLR)</em>,&nbsp2021&nbsp&nbsp
+                                </td>
+                            </tr>
+
 
                             <tr onmouseout="g2g_stop()" onmouseover="g2g_start()">
                                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -288,7 +336,7 @@
                                         <br>
                                         <br>
                                         <div style="float:left;">
-                                        Updated at Jul. 2020 
+                                        Updated at Jan. 2021 
                                         </div>
                                         <div style="float:right;">
                                         <a href="https://jonbarron.info">Template</a>
