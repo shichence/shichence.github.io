@@ -145,3 +145,4 @@ lightning_logs/
 wandb/
 tb_logs/
 figures/
+portfolio/
