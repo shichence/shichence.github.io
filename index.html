@@ -28,7 +28,7 @@
                                         <name>Chence Shi 「史晨策」</name>
                                     </p>
 
-                                    <p>I am a third-year PhD student at <a
+                                    <p>I am a final-year PhD student at <a
                                             href="https://mila.quebec" target="_blank">Montreal Institute for Learning Algorithms
                                             (Mila)</a> supervised by Prof. <a
                                             href="https://jian-tang.com" target="_blank">Jian Tang</a>. Before that, I received my B.S. in Computer Science from <a
@@ -62,16 +62,20 @@
                         <tbody>
                             <tr>
                                 <td style="padding:20px;width:100%;vertical-align:middle">
-                                    <heading>Research Topics</heading>
+                                    <heading>Research Interests</heading>
                                     <p>
-                                        My research interests lie at the intersection of generative models, geometric deep learning, graph representation learning, and drug discovery.
+                                        My research is centered on the intersection of generative models, geometric deep learning, graph representation learning, and AI for science.
+                                        <br>
+                                        I am particularly focused on modeling highly multi-modal structured data, such as graphs and proteins.
+                                        <br>
+                                        I aim to explore the <em>tokenize and atomize everything</em> approach to model complex interactions and generative processes within atomistic systems, paving the way for new therapeutic discoveries.
                                     </p>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
 
-                    <table
+                    <!-- <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
                             <tr>
@@ -104,7 +108,7 @@
                                         Three papers were accepted at <a
                                         href="https://icml.cc" target="_blank">ICML 2021</a>.
                                     </p>     
-                                <!--                                      
+                                                                     
                                     <p>
                                         <strong>[Jan. 2021]</strong>&nbsp&nbsp<font color="red"><strong>New!!</strong>
                                         </font>&nbspOur paper <em>MARS: Markov Molecular Sampling for Multi-objective Drug Discovery</em> was accepted at <a
@@ -133,8 +137,8 @@
                                             href="https://github.com/DeepGraphLearning/RecommenderSystems" target="_blank">recommender
                                             systems</a> with deep neural networks.
                                     </p>
-                                -->
-                                <!--
+                               
+                                
                                     <p>
                                         <strong>[Nov. 2018]</strong>&nbsp&nbspOur team won the <em>Best Use of Intel
                                             API 1st Place</em> prize at <a
@@ -146,17 +150,18 @@
                                         <a href="https://www.kaggle.com/c/kkbox-churn-prediction-challenge" target="_blank">WSDM Cup
                                             Challenge</a>.
                                     </p>
-                                -->
+                               
                                 </td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table> -->
+
                     <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
                             <tr>
                                 <td style="padding:20px;width:100%;vertical-align:middle">
-                                    <heading>Publications</heading>
+                                    <heading>Selected Publications</heading>
                                 </td>
                             </tr>
                         </tbody>
@@ -246,6 +251,49 @@
                                 </td>
                             </tr>
 
+                            <table
+                            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                            <tbody>
+    
+                                <tr onmouseout="confgf_stop()" onmouseover="confgf_start()">
+                                    <td style="padding:20px;width:25%;vertical-align:middle">
+                                        <div class="one">
+                                            <div class="two" id='confgf_image'>
+                                                <img src='images/demo_small.gif' height="120" width="180">
+                                            </div>
+                                                <img src='images/demo_small.gif' height="120" width="180">
+                                        </div>
+                                        <script type="text/javascript">
+                                            function confgf_start() {
+                                                document.getElementById('confgf_image').style.opacity = "1";
+                                            }
+    
+                                            function confgf_stop() {
+                                                document.getElementById('confgf_image').style.opacity = "0";
+                                            }
+                                            NERF_stop()
+                                        </script>
+                                    </td>
+    
+                                    <td style="padding:20px;width:75%;vertical-align:middle">
+                                        <papertitle>Learning Gradient Fields for Molecular Conformation Generation
+                                        </papertitle>
+                                        <br>
+                                        <strong>Chence Shi</strong>&#42;,&nbsp
+                                        Shitong Luo&#42;,&nbsp
+                                        Minkai Xu,&nbsp
+                                        Jian Tang</a>&nbsp                                  
+                                        <br>
+                                        <em>38th International Conference on Machine Learning</em>&nbsp<strong>(ICML 2021)</strong>&nbsp&nbsp
+                                        <br>
+                                        <font color="gray">Molecular 3D geometry generation; denoising diffusion; SE(3)-equivariance.
+                                        <br>
+                                        <font color="red"><strong>Long talk [top 3.0%]</strong></font>
+                                        <br>
+                                        <a href="https://arxiv.org/abs/2105.03902" target="_blank">[PDF]</a>&nbsp&nbsp&nbsp&nbsp<a href="https://github.com/DeepGraphLearning/ConfGF" target="_blank">[Code]</a>&nbsp&nbsp&nbsp&nbsp<a href="https://drive.google.com/file/d/1wA5Qu98dYPmEdoGt1QQcYfoUJG3Ndnec/view?usp=sharing" target="_blank">[Slides]</a>                                    
+                                    </td>
+                                </tr>
+
                     <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
@@ -290,9 +338,10 @@
                                     Meng Qu,&nbsp
                                     Jian Tang&nbsp
                                     <br>
-                                    <font color="gray">Ready-to-use platfrom for fast development of drug discovery models.</font>
+                                    <font color="gray">Ready-to-use platfrom for fast development of drug discovery models; ML system.</font>
                                     <br>
-                                    preprint
+                                    <font color="red"><strong>Deep Learning Library included
+                                        in PyTorch’s ecosystem</strong></font>
                                     <br>
                                     <a href="https://arxiv.org/pdf/2202.08320.pdf" target="_blank">[PDF]</a>
                                     &nbsp&nbsp&nbsp&nbsp<a href="https://torchdrug.ai/" target="_blank">[Homepage]</a>&nbsp&nbsp&nbsp&nbsp<a href="https://github.com/DeepGraphLearning/torchdrug/" target="_blank">[Github]</a>&nbsp&nbsp&nbsp&nbsp<a href="https://twitter.com/DrugTorch" target="_blank">[Twitter]</a>&nbsp&nbsp&nbsp&nbsp<a href="https://colab.research.google.com/drive/1rutJkuYH3zaxBsMROWMvAu5LQCRcKcOg?usp=sharing" target="_blank">[Google Colab]</a>
@@ -386,56 +435,7 @@
                                 </td>
                             </tr>
 
-
-
-
-                    <table
-                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-
-                            <tr onmouseout="confgf_stop()" onmouseover="confgf_start()">
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one">
-                                        <div class="two" id='confgf_image'>
-                                            <img src='images/demo_small.gif' height="120" width="180">
-                                        </div>
-                                            <img src='images/demo_small.gif' height="120" width="180">
-                                    </div>
-                                    <script type="text/javascript">
-                                        function confgf_start() {
-                                            document.getElementById('confgf_image').style.opacity = "1";
-                                        }
-
-                                        function confgf_stop() {
-                                            document.getElementById('confgf_image').style.opacity = "0";
-                                        }
-                                        NERF_stop()
-                                    </script>
-                                </td>
-
-                                <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <papertitle>Learning Gradient Fields for Molecular Conformation Generation
-                                    </papertitle>
-                                    <br>
-                                    <strong>Chence Shi</strong>&#42;,&nbsp
-                                    Shitong Luo&#42;,&nbsp
-                                    Minkai Xu,&nbsp
-                                    Jian Tang</a>&nbsp                                  
-                                    <br>
-                                    <em>38th International Conference on Machine Learning</em>&nbsp<strong>(ICML 2021)</strong>&nbsp&nbsp
-                                    <br>
-                                    <font color="gray">Molecular 3D geometry generation; denoising diffusion; SE(3)-equivariance.
-                                    <br>
-                                    <font color="red"><strong>Long talk [top 3.0%]</strong></font>
-                                    <br>
-                                    <a href="https://arxiv.org/abs/2105.03902" target="_blank">[PDF]</a>&nbsp&nbsp&nbsp&nbsp<a href="https://github.com/DeepGraphLearning/ConfGF" target="_blank">[Code]</a>&nbsp&nbsp&nbsp&nbsp<a href="https://drive.google.com/file/d/1wA5Qu98dYPmEdoGt1QQcYfoUJG3Ndnec/view?usp=sharing" target="_blank">[Slides]</a>                                    
-                                </td>
-                            </tr>
-
-
-
-
-                    <table
+                    <!-- <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
 
@@ -478,14 +478,14 @@
                                     <br>
                                     <a href="https://arxiv.org/abs/2105.07246" target="_blank">[PDF]</a>&nbsp&nbsp&nbsp&nbsp<a href="https://github.com/MinkaiXu/ConfVAE-ICML21" target="_blank">[Code]</a>  
                                 </td>
-                            </tr>
+                            </tr> -->
 
 
 
 
 
 
-                    <table
+                    <!-- <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
 
@@ -526,7 +526,7 @@
                                     <br>
                                     <a href="https://arxiv.org/abs/2106.07801" target="_blank">[PDF]</a>&nbsp&nbsp&nbsp&nbsp<a href="https://github.com/20171130/NERF" target="_blank">[Code]</a>&nbsp&nbsp&nbsp&nbsp<a href="https://icml.cc/media/icml-2021/Slides/9427_01NVWIK.pdf" target="_blank">[Slides]</a>
                                 </td>
-                            </tr>
+                            </tr> -->
 
 
                     <table
@@ -691,6 +691,8 @@
                                     <br>
                                     <font color="gray">Click-through Rate Prediction with transformers.</font>
                                     <br>
+                                    <font color="red"><strong>A well-known method in the industry</strong></font>
+                                    <br>
                                     <a href="https://arxiv.org/abs/1810.11921" target="_blank">[PDF]</a>&nbsp&nbsp&nbsp&nbsp<a href="https://github.com/DeepGraphLearning/RecommenderSystems/tree/master/featureRec" target="_blank">[Code]</a>&nbsp&nbsp&nbsp&nbsp<a href="https://drive.google.com/file/d/1SWd1ZmVrkxhkqXKiD3gTtrwKlY7Qk4xC/view?usp=sharing" target="_blank">[Slides]</a>
                                 </td>
                             </tr>
@@ -742,7 +744,7 @@
                                 <td style="padding:20px;width:100%;vertical-align:middle">
                                     <heading>Professional Services</heading>
                                     <p>
-                                        <strong>Program Committee member / Reviewer:</strong> ICML'21-23, NeurIPS'21-22, ICLR'22
+                                        <strong>Program Committee member / Reviewer:</strong> ICML'21-23, NeurIPS'21-23, ICLR'22-23
                                     </p>
                                 </td>
                             </tr>
@@ -773,7 +775,7 @@
                                         <br>
                                         <br>
                                         <div style="float:left;">
-                                        Updated at Feb. 2023
+                                        Updated at Dec. 2024
                                         </div>
                                         <div style="float:right;">
                                         <a href="https://jonbarron.info">Template</a>
